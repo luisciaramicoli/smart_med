@@ -1,7 +1,9 @@
 .tituloHomePage{
-    color: rgb(47, 88, 55); 
+    color: rgb(255, 255, 255); 
     text-align: center;
     padding-top: 2.4%;
+    font-size: 4rem;
+    padding-bottom: 4%;
 }
 .cabecalho {
     background: #29b71c;
@@ -34,4 +36,60 @@
 
 .link:hover {
     background-color: rgb(28, 90, 134);
+}
+.quadro{
+    color: white;
+    background-color: #13840f;
+    padding:2rem 1rem;
+    border-radius: 20px;
+   
+}
+.quadroMaior{
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.topicos {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+}
+
+.topico1, .topico2, .topico3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circulo {
+    background-color: #f0f4ff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icone {
+    font-size: 60px;
+    color: #2fd656;
+}
+.titulo{
+    text-align: center;
+}
+.texto{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    font-size: 1.7rem;
+}
+.fundo{
+    padding-top: 4%;
 }
