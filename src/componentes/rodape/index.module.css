@@ -1,0 +1,40 @@
+.rodape {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    max-width: 112.8rem;
+    border-radius: 2rem; 
+    width: 98%;
+    padding-bottom: 2rem;
+    padding-top: 30%;
+    padding-left: 5%;
+}
+
+.rodape p {
+    text-align: center; 
+    font-size: 1.4rem; 
+    margin-top: 0.5rem; 
+    color: #29b71c;
+}
+
+.rodape .social { 
+    /* margin: 0 auto; */
+    color: #FAFAFA;
+    background-color: #29b71c;  
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    max-width: 112.8rem; 
+    border-radius: 2rem;
+}
+
+.rodape .social .icone {
+    width: 4rem; 
+    margin: 2rem 6rem;
+}
+
+@media screen and (max-width: 480px) {
+    .rodape .social .icone {        
+        margin: 2rem 4rem;
+    }
+}
